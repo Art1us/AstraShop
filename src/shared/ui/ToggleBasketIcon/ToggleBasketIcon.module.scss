@@ -1,0 +1,15 @@
+.iconAdd {
+    cursor: pointer;
+
+    &:hover {
+        fill: var(--color-accent);
+    }
+}
+
+.iconSuccess {
+    fill: var(--color-accent);
+
+    & > path:last-child {
+        fill: var(--color-white); // for tick on cart icon
+    }
+}

@@ -1,0 +1,19 @@
+.icon {
+    fill: var(--color-dark-gray);
+
+    &.inverted {
+        fill: var(--color-white);
+
+        path {
+            fill: var(--color-white);
+        }
+    }
+
+    cursor: pointer;
+}
+
+@include tablet {
+    .icon {
+        margin-right: 10px;
+    }
+}
